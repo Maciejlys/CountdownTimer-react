@@ -16,6 +16,8 @@
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
+  --clr-grey-5: rgba(22, 27, 34);
+  --clr-grey-6: rgba(13, 17, 23);
   /* grey used for paragraphs */
   --clr-grey-5: hsl(210, 22%, 49%);
   --clr-grey-6: hsl(209, 23%, 60%);
@@ -58,4 +60,12 @@
 .active-btn {
   color: var(--clr-primary-5);
   box-shadow: 0 2px var(--clr-primary-5);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-gray-5);
 }
