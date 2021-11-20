@@ -9,7 +9,8 @@ interface NavbarProps {
 
 export const Navbar: React.FC<NavbarProps> = ({ names, setIndex, current }) => {
   return (
-    <nav>
+    <nav className="nav">
+      <div className="line"></div>
       {names.map((name, index) => {
         return (
           <button

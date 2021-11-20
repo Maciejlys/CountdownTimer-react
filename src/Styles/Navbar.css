@@ -16,8 +16,8 @@
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
-  --clr-grey-5: rgba(22, 27, 34);
-  --clr-grey-6: rgba(13, 17, 23);
+  --clr-grey-nav: rgba(22, 27, 34);
+  --clr-grey-main: rgba(13, 17, 23);
   /* grey used for paragraphs */
   --clr-grey-5: hsl(210, 22%, 49%);
   --clr-grey-6: hsl(209, 23%, 60%);
@@ -44,7 +44,7 @@
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
-  font-size: 1.25rem;
+  font-size: 1rem;
   letter-spacing: var(--spacing);
   margin: 0 0.5rem;
   transition: var(--transition);
@@ -52,6 +52,7 @@
   padding: 0.25rem 0;
   line-height: 1;
   outline-color: var(--clr-primary-10);
+  color: var(--clr-grey-10);
 }
 .btn:hover {
   color: var(--clr-primary-5);
@@ -62,10 +63,16 @@
   box-shadow: 0 2px var(--clr-primary-5);
 }
 
-nav {
+.nav {
+  gap: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: var(--clr-gray-5);
+  flex-wrap: wrap;
+  background-color: rgba(22, 27, 34, 0.3);
+  width: 100%;
+  min-height: 4rem;
+  padding: 1rem;
+  top: 0;
 }

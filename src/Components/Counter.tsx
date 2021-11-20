@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { SingleCounter } from "./Counters";
 import { countDownInterval } from "../Utils/dateUtil";
+import { Loading } from "./Loading";
 
 export const Counter: React.FC<SingleCounter> = ({
   id,
@@ -9,22 +10,35 @@ export const Counter: React.FC<SingleCounter> = ({
   dueTime,
 }) => {
   const [targetTime, setTargetTime] = useState([0, 0, 0, 0]);
-  const [expired, setExpired] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
+  const [isExpired, setIsExpired] = useState(false);
 
   useEffect(() => {
-    let interval = setInterval(async () => {
-      let newDate = countDownInterval(dueDate, dueTime);
-      await setTargetTime(newDate);
+    setIsLoading(true);
+    let interval = setInterval(() => {
+      setTargetTime(() => {
+        setIsLoading(false);
+        let newDate = countDownInterval(dueDate, dueTime);
+        newDate.map((date) => {
+          if (date < 0) {
+            setIsExpired(true);
+            clearInterval(interval);
+          } else {
+            setIsExpired(false);
+          }
+        });
+        return newDate;
+      });
     }, 1000);
     return () => clearInterval(interval);
-  }, [id, dueDate, dueTime]);
-
-  console.log("XD");
+  }, [id, dueTime, dueDate]);
 
   const [days, hours, minutes, seconds] = targetTime;
-
-  {
-    expired && <h1>Expired</h1>;
+  if (isLoading) {
+    return <Loading />;
+  }
+  if (isExpired) {
+    return <h1>Expired</h1>;
   }
   return (
     <h1>
