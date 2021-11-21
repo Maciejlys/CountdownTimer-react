@@ -25,15 +25,7 @@ function App() {
 
   return (
     <main>
-      <main
-        className="load"
-        style={{
-          display: isLoading ? "flex" : "none",
-          width: "100%",
-          height: "100%",
-          position: "absolute",
-          zIndex: "2",
-        }}>
+      <main className={`load ${!isLoading && "loaded"}`}>
         <Loading />
       </main>
       <Navbar names={names} setIndex={setIndex} current={index} />
