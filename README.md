@@ -1,7 +1,7 @@
 # About
 This is my first attempt at creating my own idea with typescript and react. It took me 5h and I learned a lot!\
 U can see this project there:
-[Live](https://maciejlys.github.io/CountdownTimer-react/
+[Live](https://maciejlys.github.io/CountdownTimer-react/)\
 
 My biggest challange in this project was probably styling it, but I think I did fairly good job in that matter.\
 
