@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/CountdownTimer-react/static/css/main.8d1994c1.chunk.css",
-    "main.js": "/CountdownTimer-react/static/js/main.bca577ae.chunk.js",
-    "main.js.map": "/CountdownTimer-react/static/js/main.bca577ae.chunk.js.map",
+    "main.css": "/CountdownTimer-react/static/css/main.35780b8c.chunk.css",
+    "main.js": "/CountdownTimer-react/static/js/main.a1fc2b92.chunk.js",
+    "main.js.map": "/CountdownTimer-react/static/js/main.a1fc2b92.chunk.js.map",
     "runtime-main.js": "/CountdownTimer-react/static/js/runtime-main.f855aef5.js",
     "runtime-main.js.map": "/CountdownTimer-react/static/js/runtime-main.f855aef5.js.map",
     "static/js/2.fcdf1b9e.chunk.js": "/CountdownTimer-react/static/js/2.fcdf1b9e.chunk.js",
     "static/js/2.fcdf1b9e.chunk.js.map": "/CountdownTimer-react/static/js/2.fcdf1b9e.chunk.js.map",
     "index.html": "/CountdownTimer-react/index.html",
-    "static/css/main.8d1994c1.chunk.css.map": "/CountdownTimer-react/static/css/main.8d1994c1.chunk.css.map",
+    "static/css/main.35780b8c.chunk.css.map": "/CountdownTimer-react/static/css/main.35780b8c.chunk.css.map",
     "static/js/2.fcdf1b9e.chunk.js.LICENSE.txt": "/CountdownTimer-react/static/js/2.fcdf1b9e.chunk.js.LICENSE.txt",
     "static/media/App.css": "/CountdownTimer-react/static/media/bg.a474513d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f855aef5.js",
     "static/js/2.fcdf1b9e.chunk.js",
-    "static/css/main.8d1994c1.chunk.css",
-    "static/js/main.bca577ae.chunk.js"
+    "static/css/main.35780b8c.chunk.css",
+    "static/js/main.a1fc2b92.chunk.js"
   ]
 }
