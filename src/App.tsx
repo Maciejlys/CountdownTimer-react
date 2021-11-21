@@ -10,11 +10,12 @@ const getNames = () => {
 
 function App() {
   const [counters, setCounters] = useState(data);
-  const [names, setNames] = useState(getNames());
+  const [names, setNames] = useState([""]);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    getNames();
+    setNames(getNames());
+    setCounters(data);
   }, []);
 
   return (

@@ -7,50 +7,20 @@
   },
   {
     "id": "1",
-    "name": "test2",
-    "dueDate": "Jan 8, 2022",
-    "dueTime": "17:00:00"
+    "name": "2022",
+    "dueDate": "Jan 1, 2022",
+    "dueTime": "00:00:00"
   },
   {
     "id": "2",
-    "name": "test3",
-    "dueDate": "Nov 20, 2021",
-    "dueTime": "17:00:00"
+    "name": "Półmaraton księżycowy ",
+    "dueDate": "Jun 26, 2022",
+    "dueTime": "12:00:00"
   },
   {
     "id": "3",
-    "name": "test4",
-    "dueDate": "Nov 20, 2021",
-    "dueTime": "15:00:00"
-  },
-  {
-    "id": "4",
-    "name": "test4",
-    "dueDate": "Nov 20, 2021",
-    "dueTime": "15:00:00"
-  },
-  {
-    "id": "5",
-    "name": "test5",
-    "dueDate": "Nov 20, 2021",
-    "dueTime": "15:00:00"
-  },
-  {
-    "id": "6",
-    "name": "test6",
-    "dueDate": "Nov 20, 2021",
-    "dueTime": "15:00:00"
-  },
-  {
-    "id": "7",
-    "name": "test6",
-    "dueDate": "Nov 20, 2021",
-    "dueTime": "15:00:00"
-  },
-  {
-    "id": "8",
-    "name": "test6",
-    "dueDate": "Nov 20, 2021",
-    "dueTime": "15:00:00"
+    "name": "Żorski bieg uliczny",
+    "dueDate": "Oct 17, 2021",
+    "dueTime": "12:00:00"
   }
 ]
