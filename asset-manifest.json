@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/maciejlys.github.io/CountdownTimer-react/static/css/main.aaaa9bfd.chunk.css",
+    "main.js": "/maciejlys.github.io/CountdownTimer-react/static/js/main.bca577ae.chunk.js",
+    "main.js.map": "/maciejlys.github.io/CountdownTimer-react/static/js/main.bca577ae.chunk.js.map",
+    "runtime-main.js": "/maciejlys.github.io/CountdownTimer-react/static/js/runtime-main.7eb88864.js",
+    "runtime-main.js.map": "/maciejlys.github.io/CountdownTimer-react/static/js/runtime-main.7eb88864.js.map",
+    "static/js/2.fcdf1b9e.chunk.js": "/maciejlys.github.io/CountdownTimer-react/static/js/2.fcdf1b9e.chunk.js",
+    "static/js/2.fcdf1b9e.chunk.js.map": "/maciejlys.github.io/CountdownTimer-react/static/js/2.fcdf1b9e.chunk.js.map",
+    "index.html": "/maciejlys.github.io/CountdownTimer-react/index.html",
+    "static/css/main.aaaa9bfd.chunk.css.map": "/maciejlys.github.io/CountdownTimer-react/static/css/main.aaaa9bfd.chunk.css.map",
+    "static/js/2.fcdf1b9e.chunk.js.LICENSE.txt": "/maciejlys.github.io/CountdownTimer-react/static/js/2.fcdf1b9e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/maciejlys.github.io/CountdownTimer-react/static/media/bg.a474513d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7eb88864.js",
+    "static/js/2.fcdf1b9e.chunk.js",
+    "static/css/main.aaaa9bfd.chunk.css",
+    "static/js/main.bca577ae.chunk.js"
+  ]
+}
