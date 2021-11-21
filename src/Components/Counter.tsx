@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { SingleCounter } from "./Counters";
 import { countDownInterval } from "../Utils/dateUtil";
 import { Loading } from "./Loading";
+import "../Styles/Counter.css";
 
 export const Counter: React.FC<SingleCounter> = ({
   id,
@@ -38,11 +39,28 @@ export const Counter: React.FC<SingleCounter> = ({
     return <Loading />;
   }
   if (isExpired) {
-    return <h1>Expired</h1>;
+    return <span className="up">The time is up!</span>;
   }
   return (
-    <h1>
-      {days}d {hours}h {minutes}m {seconds}s
-    </h1>
+    <>
+      <div className="timers">
+        <div className="timer">
+          <header className="big-text">{days}</header>
+          <footer className="small-text">days</footer>
+        </div>
+        <div className="timer">
+          <header className="big-text">{hours}</header>
+          <footer className="small-text">hours</footer>
+        </div>
+        <div className="timer">
+          <header className="big-text">{minutes}</header>
+          <footer className="small-text">minutes</footer>
+        </div>
+        <div className="timer">
+          <header className="big-text">{seconds}</header>
+          <footer className="small-text">seconds</footer>
+        </div>
+      </div>
+    </>
   );
 };

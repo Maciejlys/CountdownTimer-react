@@ -1,4 +1,25 @@
-section {
+.mid {
   height: 100vh;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50rem;
+  min-height: 25rem;
+  border: 0.01rem solid white;
+  background-color: rgba(22, 27, 34, 0.6);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.name {
+  color: white !important;
+  font-size: 1.5rem;
 }

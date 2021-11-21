@@ -16,8 +16,13 @@ export interface SingleCounter {
 
 export const Counters: React.FC<CountersProps> = ({ counters, index }) => {
   return (
-    <section>
-      <Counter {...counters[index]} />
+    <section className="mid">
+      <div className="name">
+        <h2>{counters[index].name}</h2>
+      </div>
+      <div className="counter">
+        <Counter {...counters[index]} />
+      </div>
     </section>
   );
 };

@@ -22,5 +22,11 @@
     "name": "Żorski bieg uliczny",
     "dueDate": "Oct 17, 2021",
     "dueTime": "12:00:00"
+  },
+  {
+    "id": "4",
+    "name": "Urodziny",
+    "dueDate": "Feb 26, 2022",
+    "dueTime": "12:00:00"
   }
 ]
