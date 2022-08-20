@@ -1,26 +1,20 @@
 [
   {
     "id": "0",
-    "name": "Bieg barbórkowy",
-    "dueDate": "Dec 5, 2021",
+    "name": "Prepatch",
+    "dueDate": "Aug 31, 2022",
     "dueTime": "12:00:00"
   },
   {
     "id": "1",
-    "name": "2022",
-    "dueDate": "Jan 1, 2022",
-    "dueTime": "00:00:00"
+    "name": "Wotlk Classic",
+    "dueDate": "Sep 26, 2022",
+    "dueTime": "08:00:00"
   },
   {
     "id": "2",
-    "name": "Półmaraton księżycowy ",
-    "dueDate": "Jun 26, 2022",
-    "dueTime": "12:00:00"
-  },
-  {
-    "id": "3",
-    "name": "Żorski bieg uliczny",
-    "dueDate": "Oct 17, 2021",
-    "dueTime": "12:00:00"
+    "name": "T7",
+    "dueDate": "Oct 6, 2022",
+    "dueTime": "08:00:00"
   }
 ]
